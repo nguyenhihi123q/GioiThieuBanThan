@@ -21,6 +21,7 @@ import digitalTeachingImg from '@/assets/homepage/digital-teaching.jpg'
 import saoThangGiengImg from '@/assets/homepage/sao-thang-gieng.jpg'
 import researchAiBotImg from '@/assets/homepage/research-ai-bot.jpg'
 import researchMoodleImg from '@/assets/homepage/research-moodle.jpg'
+import researchBrightLearningImg from '@/assets/homepage/research-bright-learning.jpg'
 
 /* ------------------------------------------------------------------ */
 /* PERSONAL INFORMATION                                                */
@@ -265,6 +266,7 @@ export const research: Research[] = [
     contribution: 'Tác giả chính',
     results: 'Nền tảng hoạt động hiệu quả, hỗ trợ cá nhân hóa học tập',
     award: 'Giải Khuyến khích - Giải thưởng khoa học sinh viên',
+    coverImage: researchBrightLearningImg,
   },
 ]
 
