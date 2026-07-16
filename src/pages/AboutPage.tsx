@@ -17,6 +17,9 @@ import { ImagePlaceholder } from '@/components/common/ImagePlaceholder'
 import { Timeline } from '@/components/sections/Timeline'
 import { personalInfo, skills } from '@/constants/data'
 import type { TimelineItem } from '@/types'
+import aboutProfileImg from '@/assets/homepage/about-profile.jpg'
+import teachingPhilosophyImg from '@/assets/homepage/teaching-philosophy.jpg'
+import techPhilosophyImg from '@/assets/homepage/tech-philosophy.jpg'
 
 const coreValues = [
   { icon: Sparkles, label: 'Đổi mới sáng tạo', labelEn: 'Innovation' },
@@ -83,6 +86,20 @@ const careerTimeline: TimelineItem[] = [
     description:
       'Tốt nghiệp Thủ khoa ngành Sư phạm Tin học, Đại học Sư phạm Huế.',
   },
+  {
+    id: 'english-degree-2',
+    date: '09/2026',
+    title: 'Văn bằng 2 Ngôn ngữ Anh',
+    description:
+      'Học văn bằng 2 ngành Ngôn ngữ Anh tại Trường Đại học Ngoại ngữ, Đại học Huế để nâng cao năng lực ngoại ngữ và hội nhập quốc tế.',
+  },
+  {
+    id: 'master-information-systems',
+    date: '09/2026',
+    title: 'Thạc sĩ Hệ thống thông tin',
+    description:
+      'Theo học chương trình Thạc sĩ chuyên ngành Hệ thống thông tin tại Trường Đại học Sư phạm, Đại học Huế nhằm nghiên cứu chuyên sâu về công nghệ và hệ thống dữ liệu.',
+  },
 ]
 
 const skillIcons: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -148,6 +165,7 @@ export default function AboutPage() {
               transition={{ duration: 0.6, ease: [0, 0, 0, 1] }}
             >
               <ImagePlaceholder
+                src={aboutProfileImg}
                 alt="Trần Võ Hoàng Nguyên"
                 aspectRatio="square"
                 className="mx-auto max-w-sm"
@@ -252,6 +270,7 @@ export default function AboutPage() {
               </p>
               <div className="mt-4">
                 <ImagePlaceholder
+                  src={teachingPhilosophyImg}
                   alt="Teaching Philosophy"
                   aspectRatio="video"
                 />
@@ -276,6 +295,7 @@ export default function AboutPage() {
               </p>
               <div className="mt-4">
                 <ImagePlaceholder
+                  src={techPhilosophyImg}
                   alt="Technology Philosophy"
                   aspectRatio="video"
                 />

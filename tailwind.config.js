@@ -7,11 +7,11 @@ export default {
       colors: {
         /* Microsoft Fluent Design System Colors */
         brand: {
-          DEFAULT: '#0078D4',
-          hover: '#106EBE',
-          pressed: '#005A9E',
-          light: '#DEECF9',
-          dark: '#004578',
+          DEFAULT: '#0F6292', // Deep Ocean Blue
+          hover: '#0A4C73',
+          pressed: '#073551',
+          light: '#E6F3FA',
+          dark: '#031D2D',
         },
         surface: {
           DEFAULT: 'hsl(var(--surface))',
@@ -34,7 +34,7 @@ export default {
           success: '#107C10',
           warning: '#FFB900',
           error: '#D13438',
-          info: '#0078D4',
+          info: '#0F6292',
         },
       },
       fontFamily: {
@@ -65,18 +65,18 @@ export default {
       },
       fontSize: {
         /* Fluent Design Type Ramp */
-        caption2: ['0.625rem', { lineHeight: '0.875rem', fontWeight: '400' }],
-        caption1: ['0.75rem', { lineHeight: '1rem', fontWeight: '400' }],
-        body2: ['0.8125rem', { lineHeight: '1.125rem', fontWeight: '400' }],
-        body1: ['0.875rem', { lineHeight: '1.25rem', fontWeight: '400' }],
-        subtitle2: ['1rem', { lineHeight: '1.375rem', fontWeight: '600' }],
-        subtitle1: ['1.25rem', { lineHeight: '1.75rem', fontWeight: '600' }],
-        title3: ['1.5rem', { lineHeight: '2rem', fontWeight: '600' }],
-        title2: ['1.75rem', { lineHeight: '2.25rem', fontWeight: '700' }],
-        title1: ['2rem', { lineHeight: '2.5rem', fontWeight: '700' }],
-        'hero-lg': ['2.5rem', { lineHeight: '3.25rem', fontWeight: '700' }],
-        'hero-xl': ['3rem', { lineHeight: '3.75rem', fontWeight: '700' }],
-        'hero-2xl': ['3.5rem', { lineHeight: '4.25rem', fontWeight: '700' }],
+        caption2: ['0.75rem', { lineHeight: '1rem', fontWeight: '400' }],
+        caption1: ['0.8125rem', { lineHeight: '1.125rem', fontWeight: '400' }],
+        body2: ['0.875rem', { lineHeight: '1.25rem', fontWeight: '400' }],
+        body1: ['1rem', { lineHeight: '1.5rem', fontWeight: '400' }],
+        subtitle2: ['1.125rem', { lineHeight: '1.625rem', fontWeight: '600' }],
+        subtitle1: ['1.375rem', { lineHeight: '1.875rem', fontWeight: '600' }],
+        title3: ['1.625rem', { lineHeight: '2.125rem', fontWeight: '600' }],
+        title2: ['2rem', { lineHeight: '2.5rem', fontWeight: '700' }],
+        title1: ['2.25rem', { lineHeight: '2.75rem', fontWeight: '700' }],
+        'hero-lg': ['2.75rem', { lineHeight: '3.5rem', fontWeight: '700' }],
+        'hero-xl': ['3.25rem', { lineHeight: '4rem', fontWeight: '700' }],
+        'hero-2xl': ['4rem', { lineHeight: '4.75rem', fontWeight: '700' }],
       },
       spacing: {
         /* Fluent spacing scale */
