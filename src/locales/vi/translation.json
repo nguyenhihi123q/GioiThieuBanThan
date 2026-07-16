@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "education": "Học vấn",
+    "achievements": "Thành tích",
+    "research": "Nghiên cứu",
+    "projects": "Dự án",
+    "activities": "Hoạt động",
+    "library": "Thư viện",
+    "blog": "Blog",
+    "gallery": "Hình ảnh",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "greeting": "Xin chào, tôi là",
+    "name": "Trần Võ Hoàng Nguyên",
+    "title": "Nhà giáo • AI Trainer • Giải pháp Công nghệ",
+    "subtitle": "Thủ khoa Sư phạm Tin học — Đại học Sư phạm Huế. Đam mê giáo dục, trí tuệ nhân tạo và đổi mới sáng tạo trong dạy học.",
+    "cta_about": "Về tôi",
+    "cta_research": "Nghiên cứu",
+    "cta_cv": "Tải CV"
+  },
+  "sections": {
+    "featured_achievements": "Thành tích nổi bật",
+    "featured_research": "Nghiên cứu tiêu biểu",
+    "latest_blog": "Bài viết mới nhất",
+    "featured_resources": "Tài nguyên nổi bật",
+    "all": "Tất cả",
+    "view_all": "Xem tất cả",
+    "view_detail": "Xem chi tiết",
+    "read_more": "Đọc thêm",
+    "download": "Tải xuống",
+    "search_placeholder": "Tìm kiếm...",
+    "no_results": "Không tìm thấy kết quả",
+    "loading": "Đang tải..."
+  },
+  "about": {
+    "page_title": "Giới thiệu",
+    "who_am_i": "Tôi là ai?",
+    "who_am_i_content": "Tôi là Trần Võ Hoàng Nguyên — Thủ khoa đầu ra ngành Sư phạm Tin học, Đại học Sư phạm Huế (2026). Tôi là một nhà giáo trẻ đam mê công nghệ, trí tuệ nhân tạo, và luôn tìm kiếm những cách thức đổi mới sáng tạo trong giáo dục.",
+    "mission": "Sứ mệnh",
+    "mission_content": "Ứng dụng công nghệ và trí tuệ nhân tạo vào giáo dục, mang đến trải nghiệm học tập cá nhân hóa, hiệu quả và thú vị cho mọi học sinh.",
+    "vision": "Tầm nhìn",
+    "vision_content": "Trở thành một nhà giáo dục công nghệ hàng đầu, kết hợp chuyên môn sư phạm với các giải pháp AI tiên tiến để nâng cao chất lượng giáo dục.",
+    "core_values": "Giá trị cốt lõi",
+    "teaching_philosophy": "Triết lý giáo dục",
+    "teaching_philosophy_content": "Mỗi học sinh là duy nhất. Giáo dục không chỉ là truyền đạt kiến thức, mà là khơi dậy đam mê, nuôi dưỡng tư duy sáng tạo và trang bị kỹ năng cho tương lai số.",
+    "tech_philosophy": "Triết lý công nghệ",
+    "tech_philosophy_content": "Công nghệ là công cụ, con người là trung tâm. AI không thay thế giáo viên — AI hỗ trợ giáo viên để mỗi bài giảng trở nên hiệu quả hơn.",
+    "career_journey": "Hành trình sự nghiệp",
+    "professional_summary": "Tóm tắt chuyên môn"
+  },
+  "education": {
+    "page_title": "Học vấn",
+    "page_subtitle": "Hành trình học tập và phát triển chuyên môn",
+    "institution": "Trường",
+    "major": "Chuyên ngành",
+    "period": "Thời gian",
+    "highlights": "Điểm nổi bật",
+    "valedictorian": "Thủ khoa đầu ra"
+  },
+  "achievements": {
+    "page_title": "Thành tích",
+    "page_subtitle": "Những cột mốc đáng nhớ trong hành trình",
+    "categories": {
+      "all": "Tất cả",
+      "academic": "Học thuật",
+      "competition": "Thi đấu",
+      "leadership": "Lãnh đạo",
+      "community": "Cộng đồng",
+      "startup": "Khởi nghiệp",
+      "award": "Danh hiệu"
+    }
+  },
+  "research": {
+    "page_title": "Nghiên cứu khoa học",
+    "page_subtitle": "Các công trình nghiên cứu trong lĩnh vực giáo dục và công nghệ",
+    "objectives": "Mục tiêu",
+    "technology": "Công nghệ",
+    "contribution": "Đóng góp",
+    "results": "Kết quả",
+    "award": "Giải thưởng",
+    "gallery": "Hình ảnh",
+    "pdf": "Tài liệu PDF"
+  },
+  "projects": {
+    "page_title": "Dự án",
+    "page_subtitle": "Các dự án công nghệ và giáo dục",
+    "categories": {
+      "all": "Tất cả",
+      "ai": "Trí tuệ nhân tạo",
+      "edtech": "Giáo dục công nghệ",
+      "programming": "Lập trình",
+      "tech-solutions": "Giải pháp công nghệ",
+      "teaching-innovation": "Đổi mới dạy học"
+    },
+    "tech_stack": "Công nghệ sử dụng",
+    "features": "Tính năng",
+    "demo": "Demo",
+    "source_code": "Mã nguồn"
+  },
+  "activities": {
+    "page_title": "Hoạt động Đoàn - Hội",
+    "page_subtitle": "Hành trình hoạt động phong trào và cống hiến cộng đồng",
+    "organization": "Tổ chức",
+    "role": "Vai trò",
+    "period": "Nhiệm kỳ"
+  },
+  "library": {
+    "page_title": "Thư viện tài nguyên",
+    "page_subtitle": "Tài liệu, giáo trình và tài nguyên học tập",
+    "categories": {
+      "all": "Tất cả",
+      "book": "Sách",
+      "teaching-material": "Giáo trình",
+      "slide": "Slide",
+      "document": "Tài liệu",
+      "pdf": "PDF"
+    }
+  },
+  "blog": {
+    "page_title": "Blog",
+    "page_subtitle": "Chia sẻ kiến thức và kinh nghiệm",
+    "reading_time": "phút đọc",
+    "related_posts": "Bài viết liên quan",
+    "categories": "Danh mục",
+    "tags": "Thẻ"
+  },
+  "gallery": {
+    "page_title": "Thư viện ảnh",
+    "page_subtitle": "Những khoảnh khắc đáng nhớ",
+    "categories": {
+      "all": "Tất cả",
+      "teaching": "Giảng dạy",
+      "research": "Nghiên cứu",
+      "events": "Sự kiện",
+      "community": "Cộng đồng",
+      "certificates": "Chứng nhận"
+    }
+  },
+  "contact": {
+    "page_title": "Liên hệ",
+    "page_subtitle": "Kết nối với tôi",
+    "info": "Thông tin liên hệ",
+    "form_title": "Gửi tin nhắn",
+    "name": "Họ tên",
+    "email": "Email",
+    "subject": "Chủ đề",
+    "message": "Nội dung",
+    "send": "Gửi tin nhắn",
+    "success": "Cảm ơn bạn! Tin nhắn đã được gửi thành công.",
+    "name_required": "Vui lòng nhập họ tên",
+    "email_required": "Vui lòng nhập email",
+    "email_invalid": "Email không hợp lệ",
+    "subject_required": "Vui lòng nhập chủ đề",
+    "message_required": "Vui lòng nhập nội dung"
+  },
+  "footer": {
+    "copyright": "© 2026 Trần Võ Hoàng Nguyên. All rights reserved.",
+    "description": "Nhà giáo • AI Trainer • Giải pháp Công nghệ",
+    "quick_links": "Liên kết nhanh",
+    "connect": "Kết nối",
+    "built_with": "Được xây dựng với ❤️ và React"
+  },
+  "theme": {
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  },
+  "common": {
+    "back": "Quay lại",
+    "close": "Đóng",
+    "menu": "Menu",
+    "language": "Ngôn ngữ"
+  }
+}

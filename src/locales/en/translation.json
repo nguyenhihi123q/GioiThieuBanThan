@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "education": "Education",
+    "achievements": "Achievements",
+    "research": "Research",
+    "projects": "Projects",
+    "activities": "Activities",
+    "library": "Library",
+    "blog": "Blog",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Trần Võ Hoàng Nguyên",
+    "title": "Educator • AI Trainer • Technology Solutions",
+    "subtitle": "Valedictorian in IT Education — Hue University of Education. Passionate about education, artificial intelligence, and teaching innovation.",
+    "cta_about": "About Me",
+    "cta_research": "Research",
+    "cta_cv": "Download CV"
+  },
+  "sections": {
+    "featured_achievements": "Featured Achievements",
+    "featured_research": "Featured Research",
+    "latest_blog": "Latest Posts",
+    "featured_resources": "Featured Resources",
+    "all": "All",
+    "view_all": "View All",
+    "view_detail": "View Detail",
+    "read_more": "Read More",
+    "download": "Download",
+    "search_placeholder": "Search...",
+    "no_results": "No results found",
+    "loading": "Loading..."
+  },
+  "about": {
+    "page_title": "About",
+    "who_am_i": "Who Am I?",
+    "who_am_i_content": "I'm Trần Võ Hoàng Nguyên — Valedictorian in IT Education from Hue University of Education (2026). I am a young educator passionate about technology, artificial intelligence, and always seeking innovative ways in education.",
+    "mission": "Mission",
+    "mission_content": "Applying technology and AI in education, delivering personalized, effective, and engaging learning experiences for every student.",
+    "vision": "Vision",
+    "vision_content": "Becoming a leading technology educator, combining pedagogical expertise with advanced AI solutions to enhance education quality.",
+    "core_values": "Core Values",
+    "teaching_philosophy": "Teaching Philosophy",
+    "teaching_philosophy_content": "Every student is unique. Education is not just about transferring knowledge — it's about igniting passion, nurturing creative thinking, and equipping skills for the digital future.",
+    "tech_philosophy": "Technology Philosophy",
+    "tech_philosophy_content": "Technology is a tool; humans are the center. AI doesn't replace teachers — AI empowers teachers to make every lesson more effective.",
+    "career_journey": "Career Journey",
+    "professional_summary": "Professional Summary"
+  },
+  "education": {
+    "page_title": "Education",
+    "page_subtitle": "Academic journey and professional development",
+    "institution": "Institution",
+    "major": "Major",
+    "period": "Period",
+    "highlights": "Highlights",
+    "valedictorian": "Valedictorian"
+  },
+  "achievements": {
+    "page_title": "Achievements",
+    "page_subtitle": "Memorable milestones in the journey",
+    "categories": {
+      "all": "All",
+      "academic": "Academic",
+      "competition": "Competition",
+      "leadership": "Leadership",
+      "community": "Community",
+      "startup": "Startup",
+      "award": "Award"
+    }
+  },
+  "research": {
+    "page_title": "Scientific Research",
+    "page_subtitle": "Research projects in education and technology",
+    "objectives": "Objectives",
+    "technology": "Technology",
+    "contribution": "Contribution",
+    "results": "Results",
+    "award": "Award",
+    "gallery": "Gallery",
+    "pdf": "PDF Document"
+  },
+  "projects": {
+    "page_title": "Projects",
+    "page_subtitle": "Technology and education projects",
+    "categories": {
+      "all": "All",
+      "ai": "Artificial Intelligence",
+      "edtech": "Education Technology",
+      "programming": "Programming",
+      "tech-solutions": "Tech Solutions",
+      "teaching-innovation": "Teaching Innovation"
+    },
+    "tech_stack": "Tech Stack",
+    "features": "Features",
+    "demo": "Demo",
+    "source_code": "Source Code"
+  },
+  "activities": {
+    "page_title": "Union Activities",
+    "page_subtitle": "Community engagement and youth movement activities",
+    "organization": "Organization",
+    "role": "Role",
+    "period": "Term"
+  },
+  "library": {
+    "page_title": "Resource Library",
+    "page_subtitle": "Documents, textbooks, and learning resources",
+    "categories": {
+      "all": "All",
+      "book": "Books",
+      "teaching-material": "Teaching Materials",
+      "slide": "Slides",
+      "document": "Documents",
+      "pdf": "PDF"
+    }
+  },
+  "blog": {
+    "page_title": "Blog",
+    "page_subtitle": "Knowledge sharing and experiences",
+    "reading_time": "min read",
+    "related_posts": "Related Posts",
+    "categories": "Categories",
+    "tags": "Tags"
+  },
+  "gallery": {
+    "page_title": "Gallery",
+    "page_subtitle": "Memorable moments",
+    "categories": {
+      "all": "All",
+      "teaching": "Teaching",
+      "research": "Research",
+      "events": "Events",
+      "community": "Community",
+      "certificates": "Certificates"
+    }
+  },
+  "contact": {
+    "page_title": "Contact",
+    "page_subtitle": "Get in touch with me",
+    "info": "Contact Information",
+    "form_title": "Send a Message",
+    "name": "Full Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Thank you! Your message has been sent successfully.",
+    "name_required": "Please enter your name",
+    "email_required": "Please enter your email",
+    "email_invalid": "Invalid email address",
+    "subject_required": "Please enter a subject",
+    "message_required": "Please enter a message"
+  },
+  "footer": {
+    "copyright": "© 2026 Trần Võ Hoàng Nguyên. All rights reserved.",
+    "description": "Educator • AI Trainer • Technology Solutions",
+    "quick_links": "Quick Links",
+    "connect": "Connect",
+    "built_with": "Built with ❤️ and React"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "common": {
+    "back": "Back",
+    "close": "Close",
+    "menu": "Menu",
+    "language": "Language"
+  }
+}

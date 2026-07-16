@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * ==========================================================================
+ * FLUENT DESIGN SYSTEM — CSS Custom Properties
+ * Based on Microsoft Fluent Design Language
+ * Supports Light, Dark, and System theme modes
+ * ==========================================================================
+ */
+
+@layer base {
+  /* ------------------------------------------------------------------ */
+  /* LIGHT THEME (default)                                               */
+  /* ------------------------------------------------------------------ */
+  :root {
+    /* Surface Colors */
+    --surface: 0 0% 100%;
+    --surface-secondary: 210 20% 98%;
+    --surface-tertiary: 210 14% 96%;
+    --surface-card: 0 0% 100%;
+
+    /* Text Colors */
+    --text-primary: 210 11% 15%;
+    --text-secondary: 210 7% 40%;
+    --text-tertiary: 210 5% 58%;
+    --text-disabled: 210 5% 72%;
+    --text-accent: 207 90% 42%;
+
+    /* Border Colors */
+    --border-default: 210 14% 89%;
+    --border-strong: 210 10% 75%;
+
+    /* Background overlay */
+    --overlay: 0 0% 0% / 0.3;
+
+    /* Acrylic / Mica material */
+    --acrylic-bg: 0 0% 100% / 0.72;
+    --acrylic-border: 0 0% 100% / 0.5;
+
+    /* Scrollbar */
+    --scrollbar-thumb: 210 7% 78%;
+    --scrollbar-track: 210 20% 98%;
+
+    /* Navbar */
+    --navbar-bg: 0 0% 100% / 0.85;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* DARK THEME                                                          */
+  /* ------------------------------------------------------------------ */
+  .dark {
+    --surface: 210 11% 11%;
+    --surface-secondary: 210 11% 14%;
+    --surface-tertiary: 210 11% 17%;
+    --surface-card: 210 11% 15%;
+
+    --text-primary: 210 20% 95%;
+    --text-secondary: 210 14% 72%;
+    --text-tertiary: 210 10% 55%;
+    --text-disabled: 210 8% 40%;
+    --text-accent: 207 100% 68%;
+
+    --border-default: 210 11% 22%;
+    --border-strong: 210 10% 35%;
+
+    --overlay: 0 0% 0% / 0.5;
+
+    --acrylic-bg: 210 11% 11% / 0.72;
+    --acrylic-border: 0 0% 100% / 0.08;
+
+    --scrollbar-thumb: 210 7% 30%;
+    --scrollbar-track: 210 11% 14%;
+
+    --navbar-bg: 210 11% 11% / 0.85;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* BASE STYLES                                                         */
+  /* ------------------------------------------------------------------ */
+  *,
+  *::before,
+  *::after {
+    border-color: hsl(var(--border-default));
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: 'Segoe UI Variable', 'Segoe UI', -apple-system,
+      BlinkMacSystemFont, 'Inter', 'Roboto', 'Helvetica Neue', Arial,
+      sans-serif;
+    background-color: hsl(var(--surface));
+    color: hsl(var(--text-primary));
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  /* Smooth theme transitions */
+  body,
+  body * {
+    transition-property: background-color, border-color, color;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.33, 0, 0.67, 1);
+  }
+
+  /* Focus visible for keyboard navigation */
+  :focus-visible {
+    outline: 2px solid #0078D4;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--scrollbar-track));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--scrollbar-thumb));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--text-tertiary));
+  }
+
+  /* Selection */
+  ::selection {
+    background-color: rgba(0, 120, 212, 0.3);
+    color: inherit;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* UTILITY CLASSES                                                     */
+/* ------------------------------------------------------------------ */
+@layer components {
+  /* Fluent Acrylic Material */
+  .acrylic {
+    background: hsl(var(--acrylic-bg));
+    backdrop-filter: blur(30px) saturate(125%);
+    -webkit-backdrop-filter: blur(30px) saturate(125%);
+    border: 1px solid hsl(var(--acrylic-border));
+  }
+
+  /* Fluent Mica Material (simplified) */
+  .mica {
+    background: hsl(var(--surface));
+    backdrop-filter: blur(60px) saturate(180%);
+    -webkit-backdrop-filter: blur(60px) saturate(180%);
+  }
+
+  /* Container */
+  .container-narrow {
+    @apply mx-auto max-w-4xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply py-16 sm:py-20 lg:py-24;
+  }
+
+  /* Fluent Card */
+  .fluent-card {
+    @apply rounded-lg border border-border bg-surface-card p-6 shadow-fluent-2 transition-shadow duration-normal hover:shadow-fluent-8;
+  }
+
+  /* Fluent Button - Primary */
+  .fluent-button-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-brand px-5 py-2.5 text-sm font-semibold text-white transition-all duration-fast hover:bg-brand-hover active:bg-brand-pressed focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  /* Fluent Button - Secondary */
+  .fluent-button-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-border bg-surface px-5 py-2.5 text-sm font-semibold text-text-primary transition-all duration-fast hover:bg-surface-tertiary active:bg-surface-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  /* Fluent Button - Subtle */
+  .fluent-button-subtle {
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium text-text-secondary transition-all duration-fast hover:bg-surface-tertiary hover:text-text-primary active:bg-surface-secondary;
+  }
+
+  /* Fluent Badge */
+  .fluent-badge {
+    @apply inline-flex items-center rounded-full bg-brand-light px-2.5 py-0.5 text-xs font-medium text-brand-dark;
+  }
+
+  .dark .fluent-badge {
+    @apply bg-brand-dark/30 text-blue-300;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand to-blue-500 bg-clip-text text-transparent;
+  }
+
+  .dark .gradient-text {
+    @apply from-blue-400 to-cyan-400;
+  }
+
+  /* Skip to content */
+  .skip-link {
+    @apply fixed left-4 top-4 z-[9999] -translate-y-20 rounded-md bg-brand px-4 py-2 text-white transition-transform focus:translate-y-0;
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* ANIMATIONS                                                          */
+/* ------------------------------------------------------------------ */
+@layer utilities {
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  .animation-delay-500 {
+    animation-delay: 500ms;
+  }
+}
+
