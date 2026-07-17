@@ -144,7 +144,7 @@ export default function AboutPage() {
               <div className="grid grid-cols-2 gap-4">
                 <div className="rounded-lg border border-border bg-surface-secondary p-4">
                   <p className="text-caption1 text-text-tertiary">Email</p>
-                  <p className="text-body2 font-medium text-text-primary">
+                  <p className="text-body2 font-medium text-text-primary break-all">
                     {personalInfo.email}
                   </p>
                 </div>
