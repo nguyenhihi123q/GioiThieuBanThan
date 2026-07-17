@@ -70,6 +70,7 @@ export default function EducationPage() {
               {/* Image side */}
               <div className="bg-gradient-to-br from-brand/10 to-blue-500/10 p-8 lg:p-12">
                 <ImagePlaceholder
+                  src={`${import.meta.env.BASE_URL}images/education/uni.jpg`}
                   alt="Đại học Sư phạm Huế"
                   aspectRatio="video"
                   className="rounded-xl"
@@ -154,6 +155,7 @@ export default function EducationPage() {
                         {milestone.description}
                       </p>
                       <ImagePlaceholder
+                        src={`${import.meta.env.BASE_URL}images/education/milestone-${index + 1}.jpg`}
                         alt={`${milestone.title} - Certificate`}
                         aspectRatio="video"
                       />
@@ -187,6 +189,7 @@ export default function EducationPage() {
             </p>
             <div className="mt-6">
               <ImagePlaceholder
+                src={`${import.meta.env.BASE_URL}images/education/leadership.jpg`}
                 alt="Competition Leadership"
                 aspectRatio="video"
               />

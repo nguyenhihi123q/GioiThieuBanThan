@@ -108,6 +108,15 @@ export const skills: SkillCategory[] = [
 /* ------------------------------------------------------------------ */
 export const achievements: Achievement[] = [
   {
+    id: 'digital-community',
+    title: 'Tập Huấn chuyển đổi số cho cộng đồng cùng Viện Chuyển đổi số và học liệu - Đại Học Huế',
+    description:
+      'Tham gia tập huấn chuyển đổi số cho nhiều đơn vị trên địa bàn thành phố Huế (hợp tác cùng Viện Chuyển đổi số và Học liệu).',
+    year: '2024 - 2025',
+    category: 'community',
+    image: `${import.meta.env.BASE_URL}images/achievements/digital-community.jpg`,
+  },
+  {
     id: 'party-member',
     title: 'Đảng viên Đảng Cộng sản Việt Nam',
     description:
@@ -150,6 +159,7 @@ export const achievements: Achievement[] = [
       'Đạt danh hiệu "Sao Tháng Giêng" cấp Trường Đại học Sư phạm Huế năm 2024.',
     year: '2024',
     category: 'award',
+    image: `${import.meta.env.BASE_URL}images/achievements/sao-thang-gieng-school.jpg`,
   },
   {
     id: 'sv5t-hue',
@@ -158,6 +168,7 @@ export const achievements: Achievement[] = [
       'Đạt danh hiệu "Sinh viên 5 tốt" cấp Đại học Huế liên tiếp 2 năm học từ 2024 - 2026.',
     year: '2024 - 2026',
     category: 'award',
+    image: `${import.meta.env.BASE_URL}images/achievements/sv5t-hue.jpg.jpg`,
   },
   {
     id: 'sv5t-school',
@@ -166,6 +177,7 @@ export const achievements: Achievement[] = [
       'Đạt danh hiệu "Sinh viên 5 tốt" cấp Trường Đại học Sư phạm Huế liên tiếp 2 năm học từ 2024 - 2026.',
     year: '2024 - 2026',
     category: 'award',
+    image: `${import.meta.env.BASE_URL}images/achievements/sv5t-school.jpg`,
   },
   {
     id: 'outstanding-union-member',
@@ -174,6 +186,7 @@ export const achievements: Achievement[] = [
       'Được Ban Thường vụ Đoàn Trường Đại học Sư phạm, Đại học Huế công nhận là "Đoàn viên ưu tú" liên tục trong suốt 4 năm đại học.',
     year: '2022 - 2026',
     category: 'leadership',
+    image: `${import.meta.env.BASE_URL}images/achievements/outstanding-union-member.jpg`,
   },
   {
     id: 'union-excellence',
@@ -182,6 +195,7 @@ export const achievements: Achievement[] = [
       'Được BCH Đoàn TNCS Trường Đại học Sư phạm, Đại học Huế khen tặng: "Đã có thành tích xuất sắc trong công tác Đoàn và phong trào thanh niên năm học 2024 - 2025".',
     year: '2024 - 2025',
     category: 'leadership',
+    image: `${import.meta.env.BASE_URL}images/achievements/union-excellence.jpg`,
   },
   {
     id: 'student-union-excellence',
@@ -190,6 +204,7 @@ export const achievements: Achievement[] = [
       'Được Hội Sinh viên Đại học Huế và Hội Sinh viên Trường Đại học Sư phạm khen thưởng vì có nhiều thành tích xuất sắc trong công tác Hội và phong trào sinh viên.',
     year: '2024 - 2025',
     category: 'leadership',
+    image: `${import.meta.env.BASE_URL}images/achievements/student-union-excellence.jpg`,
   },
   {
     id: 'startup-innovation',
@@ -198,14 +213,7 @@ export const achievements: Achievement[] = [
       'Đạt Giải Khuyến khích cuộc thi Ý tưởng khởi nghiệp và đổi mới sáng tạo Đại học Huế lần thứ 8.',
     year: '2024',
     category: 'startup',
-  },
-  {
-    id: 'digital-community',
-    title: 'Tập huấn chuyển đổi số cộng đồng',
-    description:
-      'Tham gia tập huấn chuyển đổi số cho nhiều đơn vị trên địa bàn thành phố Huế (hợp tác cùng Viện Chuyển đổi số và Học liệu).',
-    year: '2024 - 2025',
-    category: 'community',
+    image: `${import.meta.env.BASE_URL}images/achievements/startup-innovation.jpg`,
   },
 ]
 
