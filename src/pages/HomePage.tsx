@@ -186,7 +186,7 @@ export default function HomePage() {
 
               <motion.h1
                 variants={itemVariants}
-                className="mb-4 text-hero-xl font-bold leading-tight text-text-primary sm:text-hero-2xl"
+                className="mb-4 text-title1 sm:text-hero-xl lg:text-hero-2xl font-bold leading-tight text-text-primary"
               >
                 <span className="gradient-text">{t('hero.name')}</span>
               </motion.h1>
@@ -244,7 +244,7 @@ export default function HomePage() {
                     src={avatarImg}
                     alt="Trần Võ Hoàng Nguyên — Profile"
                     aspectRatio="square"
-                    className="h-72 w-72 sm:h-80 sm:w-80 lg:h-96 lg:w-96"
+                    className="h-64 w-64 sm:h-72 sm:w-72 lg:h-96 lg:w-96"
                     placeholderIcon={
                       <User className="h-16 w-16 text-text-disabled" />
                     }
