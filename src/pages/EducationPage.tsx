@@ -143,7 +143,7 @@ export default function EducationPage() {
 
                   {/* Card */}
                   <div
-                    className={`ml-10 w-full md:ml-0 md:w-[44%] ${
+                    className={`w-full pl-14 md:w-[44%] md:pl-0 ${
                       isEven ? 'md:mr-auto md:pr-8' : 'md:ml-auto md:pl-8'
                     }`}
                   >
