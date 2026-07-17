@@ -91,6 +91,8 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    width: 100%;
   }
 
   body {
@@ -101,6 +103,14 @@
     color: hsl(var(--text-primary));
     line-height: 1.5;
     overflow-x: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
   }
 
   /* Smooth theme transitions */
